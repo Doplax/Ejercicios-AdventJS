@@ -1,20 +1,19 @@
-function print(element){ console.log(element);} 
 const carta = 'bici coche balón _playstation bici coche peluche'
 
-const lista = carta.split(" ");
-
+const lista = carta.split(" ").sort();
 
 let objeto = {}
 
-lista.forEach((Element,i) => {objeto[Element] = 0});
+console.log(objeto);
 
-lista.sort() 
 
-delete lista[0]
 
-for (let i of lista) {
-    print(lista)
-}
+// for (let i of lista) {
+//     objeto[i]
+//     console.log(i)
+// }
+
+
 
 // objeto["bici"] = 1
 // if (objeto["bici"]){
@@ -24,6 +23,4 @@ for (let i of lista) {
 // }
 
 
-// if (lista[i].charAt(0) === "_") {
-    
-// }
+// if (lista[i].charAt(0) === "_") { lista[i].slice  }
