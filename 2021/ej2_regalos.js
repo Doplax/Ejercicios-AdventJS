@@ -1,3 +1,5 @@
+// https://2021.adventjs.dev/challenges/02
+
 const carta = 'bici coche balón _playstation bici coche peluche'
 
 
